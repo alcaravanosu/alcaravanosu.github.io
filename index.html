@@ -5,13 +5,16 @@ layout: default
 <section class="section-site0">
 	<div class="wrapper">
 		<img src="assets/img/rostro.png">
-		<div>Raúl Andrés</div>
-		<div>Casanova</div>
-		<div>Sosa</div>
-		<div>Rif: V185657678</div>
+		<div class="name">
+			<div class="first-name">Raúl Andrés</div>
+			<div class="last-name">Casanova</div>
+			<div class="last-name2">Sosa</div>
+			<div class="rif">Rif: V185657678</div>
+		</div>
+		<div class="cv">Curriculum vitae</div>
 		<ul>
 			{% for dato in site.data.contacto %}
-				<li>{{dato.desc}}</li>
+				<li class="icon">{% include iconos/home.svg %} {{dato.desc}}</li>
 			{% endfor %}
 		</ul>
 	</div>
@@ -19,6 +22,28 @@ layout: default
 
 <section class="section-site1">
 	<div class="wrapper">
-		<h2>Educacion</h2>
+		<h2>Educación</h2>
+		<ul>
+			{% for edu in site.data.educacion %}
+				<li>
+					<div>{{edu.titulo}}</div>
+					<p>{{edu.fecha}} {{edu.institucion}} {{edu.ciudad}}</p>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+<section>
+
+<section class="section-site0">
+	<div class="wrapper">
+		<h2>Experiencia</h2>
+		<ul>
+			{% for exp in site.data.experiencia %}
+				<li>
+					<div>{{exp.titulo}}</div>
+					<p>{{exp.fecha_in}}{{exp.fecha_out}} {{exp.ciudad}} {{exp.rol}} {{exp.empresa}}</p>
+				</li>
+			{% endfor %}
+		</ul>
 	</div>
 <section>
