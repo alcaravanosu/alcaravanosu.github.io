@@ -6,7 +6,7 @@
  empresa: Centro de computación, Universidad Nacional Experimental del Táchira.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: gitlab.svg
  tag: resume tech
 -
  titulo: Equipo técnico + Registro fotográfico y audiovisual
@@ -16,7 +16,17 @@
  empresa: Grupo Experimental de Teatro UNET, GETUNET + Incinerador Teatro, CA
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
+ tag: resume art
+-
+ titulo: Colaborador activo
+ fecha_in: 2014- .
+ fecha_out: 
+ rol: Eventos y equipo técnico.
+ empresa: Fundación Cultural BORDES.
+ ciudad: San Cristóbal.
+ contacto:
+ ico: 
  tag: resume art
 -
  titulo: Reportero gráfico
@@ -26,17 +36,17 @@
  empresa: Diario de los Andes, CA
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume tech art
 -
- titulo: Administración web
+ titulo: Administrador web
  fecha_in: 2014-
  fecha_out: 2017.
  rol: Actualización, mantenimiento y diseño web.
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume tech art
 -
  titulo: Asistente de producción
@@ -46,7 +56,7 @@
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume art
 -
  titulo: Ingeniero desarrollador
@@ -56,7 +66,7 @@
  empresa: Backlayer (Panamá).
  ciudad: 
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume tech
 -
  titulo: Coor. de proyecciones + Coor. Técnica
@@ -66,7 +76,7 @@
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume tech art
 -
  titulo: Comité organizador + Coor. Técnica
@@ -76,7 +86,7 @@
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume tech art
 -
  titulo: Coor. Técnica
@@ -86,7 +96,7 @@
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume tech art
 -
  titulo: Diseñador + Coor. de ventas
@@ -96,17 +106,17 @@
  empresa: Invesiones Sol y Miel, CA.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume art
 -
  titulo: Pasantias
- fecha_in: 2013-
- fecha_out: 2015.
+ fecha_in: Octubre-
+ fecha_out: Enero, 2013.
  rol: Diseño de etiquetas + Ventas.
  empresa: Invesiones Sol y Miel, CA.
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume tech
 -
  titulo: Director de imagen y diseño
@@ -116,7 +126,7 @@
  empresa: Casa Nova rest, piano bar y festejos, CA
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume art
 -
  titulo: Librero
@@ -126,5 +136,5 @@
  empresa: Librería y galería Sin Limite, CA
  ciudad: San Cristóbal.
  contacto:
- ico: raul.jpg
+ ico: 
  tag: resume art

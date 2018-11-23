@@ -277,7 +277,7 @@
 	margin-top: -17px;
 	float: right;
 }
-img{
+.foto{
 	border-radius: 100%;
 	width:200px;
 	height:200px;
@@ -290,11 +290,25 @@ img{
 	padding: 10px;
 }
 ul{
-list-style-type: none;
+	list-style-type: none;
+}
+.lista{
+	margin-left: 10px;	
+	#list-style-type: none;
+	-moz-column-count: 2;
 }
 ul img{
 	width: 20px;
 	height: 20px;
 	border-radius: 0%;
 	color: white;
+}
+
+.item{
+	font-size: $base-font-size - 1;
+	display: inline-block;
+}
+
+ul > li > div{
+	font-weight: bold;
 }

@@ -4,7 +4,7 @@ layout: default
 
 <section class="section-site0">
 	<div class="wrapper">
-		<img src="assets/img/rostro.png">
+		<img class="foto" src="assets/img/rostro.png">
 		<div class="name">
 			<div class="first-name">Raúl Andrés</div>
 			<div class="last-name">Casanova</div>
@@ -14,7 +14,9 @@ layout: default
 		<div class="cv">Curriculum vitae</div>
 		<ul>
 			{% for dato in site.data.contacto %}
-				<li class="icon">{% include iconos/home.svg %} {{dato.desc}}</li>
+				{% if dato.tag != 'private' %}
+				<li class="icon">{% include iconos/{{ dato.ico }} %} {{dato.desc}}</li>
+				{% endif %}
 			{% endfor %}
 		</ul>
 	</div>
@@ -22,10 +24,10 @@ layout: default
 
 <section class="section-site1">
 	<div class="wrapper">
-		<h2>Educación</h2>
-		<ul>
+		<h2>EDUCACIÓN</h2>
+		<ul class="lista">
 			{% for edu in site.data.educacion %}
-				<li>
+				<li class="item">
 					<div>{{edu.titulo}}</div>
 					<p>{{edu.fecha}} {{edu.institucion}} {{edu.ciudad}}</p>
 				</li>
@@ -36,12 +38,26 @@ layout: default
 
 <section class="section-site0">
 	<div class="wrapper">
-		<h2>Experiencia</h2>
-		<ul>
+		<h2>EXPERIENCIA</h2>
+		<ul class="lista">
 			{% for exp in site.data.experiencia %}
-				<li>
+				<li class="item">
 					<div>{{exp.titulo}}</div>
 					<p>{{exp.fecha_in}}{{exp.fecha_out}} {{exp.ciudad}} {{exp.rol}} {{exp.empresa}}</p>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+<section>
+
+<section class="section-site1">
+	<div class="wrapper">
+		<h2>CURSOS Y EVENTOS</h2>
+		<ul class="lista">
+			{% for asistente in site.data.cursos %}
+				<li class="item">
+					<div>{{asistente.titulo}}</div>
+					<p>{{asistente.fecha}} {{asistente.lugar}} {{asistente.horas}} {{asistente.institucion}}</p>
 				</li>
 			{% endfor %}
 		</ul>

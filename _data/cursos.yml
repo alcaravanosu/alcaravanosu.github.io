@@ -1,15 +1,89 @@
 -
- desc: Marzo, 1988
- ico: raul.jpg
+ titulo: Introduction to Linux (LinuxFoundationX - LFS101x)
+ fecha: Septiembre, 2018.
+ lugar: Internet.
+ institucion: Linux Foundation (edx.org).
+ horas:
+ ico: 
+ tag: resume tech
 -
- desc: San Cristóbal, Estado Táchira, VENEZUELA
- ico: raul.jpg
+ titulo: Project Managament Life Cycle (RITx - P9001x)
+ fecha: Julio, 2018.
+ lugar: Internet.
+ institucion: Rochester Institute of Technology (edx.org).
+ horas:
+ ico: 
+ tag: resume tech art
 -
- desc: Av. Guayana, Sec. Los Kioscos, Res. Las Delicias
- ico: raul.jpg
+ titulo: Curso de francés
+ fecha: Abril 2016 (Nivel II). Julio 2015 (Nivel I). Mayo 2015 (Intro).
+ lugar: San Cristóbal.
+ institucion: Coor. Formación Permanente, Universidad Nacional Experimental del Táchira.
+ horas: 40 h.
+ ico: 
+ tag: resume tech art
 -
- desc: casanovas.raul@gmail.com
- ico: raul.jpg
+ titulo: Taller interactivo. Nuevas tendencias en manejo estrategico de RRSS
+ fecha: Octubre, 2015.
+ lugar: San Cristóbal.
+ institucion: IMAPYC.
+ horas:
+ ico: 
+ tag: resume tech art
 -
- desc: (+58) 0276 3445044 / 0414 7552219
- ico: raul.jpg
+ titulo: Comunicaciones Satelitales
+ fecha: Agosto, 2015.
+ lugar: Internet.
+ institucion: SAD, CONATEL.
+ horas:
+ ico: 
+ tag: resume tech
+-
+ titulo: Congreso nacional de software libre
+ fecha: Mayo, 2013. Junio, 2014.
+ lugar: San Cristóbal.
+ institucion: Proyecto GNU de Venezuela.
+ horas:
+ ico: 
+ tag: resume tech
+-
+ titulo: Tecnópolis. Festival de software, hardware y cultura libre
+ fecha: Septiembre, 2013.
+ lugar: San Cristóbal.
+ institucion: Ministerio del poder popular para la cultura + Comunidad GNUCHOX.
+ horas:
+ ico: 
+ tag: resume tech art
+-
+ titulo: Metro style apps
+ fecha: Mayo, 2012.
+ lugar: San Cristóbal.
+ institucion: Microsoft, escuelas tecnológicas + Instituto Universitario de Tecnología “Antonio José de Sucre”, Coordinación Académica.
+ horas:
+ ico: 
+ tag: resume tech
+-
+ titulo: Curso de diseño de sitios web
+ fecha: Julio, 2010.
+ lugar: San Cristóbal.
+ institucion: Decanato de Formación Permanente, Universidad Nacional Experimental del Táchira.
+ horas:
+ ico: 
+ tag: resume tech
+-
+ titulo: V Congreso internacional tecnología web, informática & e-business
+ fecha: Mayo, 2009.
+ lugar: Mérida.
+ institucion: Fundación académica integral de bienes electrónicos, sistemas y servicios,  Funda CIBESS + Gerenglob.
+ horas:
+ ico: 
+ tag: resume tech
+-
+ titulo: Curso de técnicas de locución y oratoria
+ fecha: Febrero, 2006.
+ lugar: San Cristóbal.
+ institucion: Consejo Nacional de la Cultura, Ateneo del Táchira. Ministerio de la Cultura.
+ horas:
+ ico: 
+ tag: resume tech art
+
