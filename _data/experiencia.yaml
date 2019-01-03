@@ -5,7 +5,17 @@
  rol: Administrador de sistemas + Desarrollador web.
  empresa: Centro de computación, Universidad Nacional Experimental del Táchira.
  ciudad: San Cristóbal.
- contacto:
+ contacto: RRHH (rrhh@unet.edu.ve)
+ ico: gitlab.svg
+ tag: resume tech
+-
+ titulo: Ingeniero desarrollador
+ fecha_in: Junio-
+ fecha_out: Diciembre, 2018.
+ rol: Remoto. Analista de sistemas + Desarrollador web.
+ empresa: Open Tenología SA, a traves de Grupo XXI Tecnologia Para El Siglo SAS (Colombia).
+ ciudad: Remoto.
+ contacto: Alexander Gordillo (alex.gordillo@open-eb.co) + Héctor Maimone (hmaimone@grupoxxi.com.co)
  ico: gitlab.svg
  tag: resume tech
 -
@@ -13,7 +23,7 @@
  fecha_in: 2012- .
  fecha_out: 
  rol: Fotografía y audiovisuales.
- empresa: Grupo Experimental de Teatro UNET, GETUNET + Incinerador Teatro, CA
+ empresa: Grupo Experimental de Teatro UNET, GETUNET + Incinerador Teatro, CA.
  ciudad: San Cristóbal.
  contacto:
  ico: 
@@ -25,7 +35,7 @@
  rol: Eventos y equipo técnico.
  empresa: Fundación Cultural BORDES.
  ciudad: San Cristóbal.
- contacto:
+ contacto: Fania Castillo (faniacastillo@gmail.com)
  ico: 
  tag: resume art
 -
@@ -35,7 +45,7 @@
  rol: Fotografía y audiovisuales.
  empresa: Diario de los Andes, CA
  ciudad: San Cristóbal.
- contacto:
+ contacto: Administracion DLA (administracion.tachira@diariodelosandes.com)
  ico: 
  tag: resume tech art
 -
@@ -45,7 +55,7 @@
  rol: Actualización, mantenimiento y diseño web.
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
- contacto:
+ contacto: Fania Castillo (faniacastillo@gmail.com)
  ico: 
  tag: resume tech art
 -
@@ -55,17 +65,17 @@
  rol: Organizador y coordinador de eventos.
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
- contacto:
+ contacto: Fania Castillo (faniacastillo@gmail.com)
  ico: 
  tag: resume art
 -
  titulo: Ingeniero desarrollador
  fecha_in: Agosto-
  fecha_out: Diciembre, 2016.
- rol: Remoto. Tres proyectos. Administrador de base de datos + Desarrollador movil + Desarrollador web. 
+ rol: Tres proyectos. Administrador de base de datos + Desarrollador movil + Desarrollador web. 
  empresa: Backlayer (Panamá).
- ciudad: 
- contacto:
+ ciudad: Remoto.
+ contacto: Marco Pirrongelli (mp@backlayer.com)
  ico: 
  tag: resume tech
 -
@@ -75,7 +85,7 @@
  rol: VI Encuentro para cinéfagos,
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
- contacto:
+ contacto: Fania Castillo (faniacastillo@gmail.com)
  ico: 
  tag: resume tech art
 -
@@ -85,7 +95,7 @@
  rol: VI Seminario Bordes, Identidades minimas,
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
- contacto:
+ contacto: Fania Castillo (faniacastillo@gmail.com)
  ico: 
  tag: resume tech art
 -
@@ -95,7 +105,7 @@
  rol: V Encuentro para cinéfagos,
  empresa: Fundación cultural BORDES.
  ciudad: San Cristóbal.
- contacto:
+ contacto: Fania Castillo (faniacastillo@gmail.com)
  ico: 
  tag: resume tech art
 -
@@ -112,8 +122,8 @@
  titulo: Pasantias
  fecha_in: Octubre-
  fecha_out: Enero, 2013.
- rol: Diseño de etiquetas + Ventas.
- empresa: Invesiones Sol y Miel, CA.
+ rol: Desarrollador web. 
+ empresa: Instituto de beneficencia pública y bienestar social del Estado Táchira, Lotería del Táchira.
  ciudad: San Cristóbal.
  contacto:
  ico: 
@@ -132,7 +142,7 @@
  titulo: Librero
  fecha_in: 2007-
  fecha_out: 2010.
- rol: Librero + Exposicion en vitrinas.
+ rol: Librero + Vendedor.
  empresa: Librería y galería Sin Limite, CA
  ciudad: San Cristóbal.
  contacto:

@@ -241,13 +241,19 @@
     }
 }
 
+$color-bg-0: #720000;
+$color-con-0: #fff;
+
+$color-bg-1: #fff;
+$color-con-1: #720000;
+
 .section-site0{
-	background-color: #720000;
-	color: white;
+	background-color: $color-bg-0;
+	color: $color-con-0;
 }
 .section-site1{
-	background-color: #fff;
-	color: #720000;
+	background-color: $color-bg-1;
+	color: $color-con-1;
 }
 .name{
 	font-weight: bold;
@@ -292,9 +298,12 @@
 ul{
 	list-style-type: none;
 }
-.lista{
+
+.tarjeta{
 	margin-left: 10px;	
-	#list-style-type: none;
+}
+
+.lista{
 	-moz-column-count: 2;
 }
 ul img{
@@ -309,6 +318,38 @@ ul img{
 	display: inline-block;
 }
 
+.progress-bar{
+	float: left;
+}
+
 ul > li > div{
 	font-weight: bold;
 }
+
+$base-cirulo-h: 20px;
+$base-cirulo-radius: 20px;
+
+.circulo-lleno{
+	width: $base-cirulo-h;
+  height: $base-cirulo-h;
+  background: $color-bg-1;
+  border-radius: $base-cirulo-radius;
+}
+.circulo-vacio{
+	width: $base-cirulo-h;
+  height: $base-cirulo-h;
+  border-radius: $base-cirulo-radius;
+  border: $color-bg-1 solid 2px;
+}
+.circulo-medio{
+	width: 50%;
+  height: $base-cirulo-h;
+  background: $color-bg-1;
+	border-radius: $base-cirulo-h 0 0 $base-cirulo-h;
+}
+
+hr{
+	opacity: 0.4;
+	margin-bottom: 30px
+}
+
