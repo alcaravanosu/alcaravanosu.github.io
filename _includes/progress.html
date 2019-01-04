@@ -1,0 +1,14 @@
+{% assign rating = {{include.valor}} | divided_by: 2 %}
+{% assign odd = {{include.valor}} | modulo: 2 %}
+<div class="herramienta-barra">
+	{% for circulo in (0..4) %}
+		<div class="circulo-vacio-{{include.color}} progress-bar">
+			{% if circulo < rating %}
+				<div class="circulo-lleno-{{include.color}}"></div>
+			{% endif %}
+			{% if rating == circulo and odd != 0 %}
+				<div class="circulo-medio-{{include.color}}"></div>
+			{% endif %}
+		</div>
+	{% endfor %}
+</div>

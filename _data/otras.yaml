@@ -1,0 +1,45 @@
+-
+ titulo: Idiomas
+ lista:
+  -
+   nombre: Español
+   valor: 10
+  -
+   nombre: Ingles
+   valor: 9
+  -
+   nombre: Frances
+   valor: 7
+#  -
+#   nombre: Italiano
+#   valor: 3
+#  -
+#   nombre: Portugues
+#   valor: 2
+ ico:
+ tag: public tech
+-
+ titulo: Diseño
+ lista:
+  -
+   nombre: Gimp + Inkscape
+   valor: 6
+  -
+   nombre: Ad. Photoshop
+   valor: 7
+ ico:
+ tag: public tech
+-
+ titulo: Multimedia
+ lista:
+  -
+   nombre: Imagen
+   valor: 8
+  -
+   nombre: Audio
+   valor: 6
+  -
+   nombre: Video
+   valor: 7
+ ico:
+ tag: public tech

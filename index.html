@@ -83,22 +83,9 @@ layout: default
 					<div class="titulo">{{her.titulo}}</div>
 					<ul class="tarjeta">
 						{% for item in her.herramienta %}
-							{% assign rating = item.valor | divided_by: 2 %}
-							{% assign odd = item.valor | modulo: 2 %}
 							<li class="item-rating">
 								<div class="herramienta-nombre">{{item.nombre}}</div> 
-								<div class="herramienta-barra">
-									{% for circulo in (0..4) %}
-										<div class="circulo-vacio progress-bar">
-											{% if circulo < rating %}
-												<div class="circulo-lleno"></div>
-											{% endif %}
-											{% if rating == circulo and odd != 0 %}
-												<div class="circulo-medio"></div>
-											{% endif %}
-										</div>
-									{% endfor %}
-								</div>
+								{% include progress.html color=1 valor=item.valor %}
 							</li>
 						{% endfor %}
 					</ul>
@@ -114,5 +101,50 @@ layout: default
 				{% endif %}
 			{% endfor %}
 		</ul>
+	</div>
+<section>
+
+<section class="section-site1">
+	<div class="wrapper">
+		<div>
+			<h2>HABILIDADES Y DESTREZAS</h2>
+			<ul class="lista tarjeta">
+				{% for hab in site.data.habilidades %}
+					<li class="item">
+						{% if hab.titulo %}
+							<div class="titulo">{{hab.titulo}}</div>
+							<ul class="tarjeta">
+								{% for item in hab.lista %}
+									<li class="item-rating">
+										<div class="herramienta-nombre">{{item.nombre}}</div> 
+										{% include progress.html color=0 valor=item.valor %}
+									</li>
+								{% endfor %}
+							</ul>
+						{% else %}
+							<div class="">{{hab.habilidad}}</div>
+						{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div>
+			<h2>OTRAS CAPACIDADES</h2>
+			<ul class="lista tarjeta">
+				{% for otra in site.data.otras %}
+					<li class="item">
+						<div class="titulo">{{otra.titulo}}</div>
+						<ul class="tarjeta">
+							{% for cap in otra.lista %}
+								<li class="item-rating">
+									<div class="herramienta-nombre">{{ cap.nombre }}</div>
+									{% include progress.html color=0 valor=cap.valor %}
+								</li>
+							{% endfor %}
+						</ul>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 <section>

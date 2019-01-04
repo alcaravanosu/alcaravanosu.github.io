@@ -1,6 +1,6 @@
 -
  titulo: Desarrollo de software
- herramienta:
+ lista:
   -
    nombre: Escritorio
    valor: 6
@@ -12,3 +12,16 @@
    valor: 5
  ico:
  tag: public tech
+-
+ habilidad: >
+  Habilidad oratoria y redacción, de persuasión.<br>
+  Capacidad para adaptarse a cualquier ambiente y equipo de trabajo.<br>
+  Proactivo, pragmático, autodidacta y minimalista.<br>
+  Capaz de tomar decisiones bajo presión.
+ ico:
+-
+ habilidad: Destreza en el manejo de cámaras (video y fotografía) + composición audiovisual y fotográfica. 
+ ico:
+ -
+ habilidad: Conocimiento y habilidad de edición y montaje de audiovisuales, audio e imágenes
+ ico:

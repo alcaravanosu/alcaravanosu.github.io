@@ -349,22 +349,41 @@ ul img{
 $base-cirulo-h: 15px;
 $base-cirulo-radius: 15px;
 
-.circulo-lleno{
+.circulo-lleno-1{
 	width: $base-cirulo-h;
   height: $base-cirulo-h;
   background: $color-bg-1;
   border-radius: $base-cirulo-radius;
 }
-.circulo-vacio{
+.circulo-vacio-1{
 	width: $base-cirulo-h;
   height: $base-cirulo-h;
   border-radius: $base-cirulo-radius;
   border: $color-bg-1 solid 2px;
 }
-.circulo-medio{
+.circulo-medio-1{
 	width: 50%;
   height: $base-cirulo-h;
   background: $color-bg-1;
+	border-radius: $base-cirulo-h 0 0 $base-cirulo-h;
+}
+
+.circulo-lleno-0{
+	width: $base-cirulo-h;
+  height: $base-cirulo-h;
+  background: $color-bg-0;
+  border-radius: $base-cirulo-radius;
+}
+.circulo-vacio-0{
+	width: $base-cirulo-h;
+  height: $base-cirulo-h;
+  border-radius: $base-cirulo-radius;
+  border: $color-bg-0 solid 2px;
+}
+.circulo-medio-0{
+	width: 50%;
+  height: $base-cirulo-h;
+  background: $color-bg-0;
 	border-radius: $base-cirulo-h 0 0 $base-cirulo-h;
 }
 
@@ -373,3 +392,6 @@ hr{
 	margin-bottom: 30px
 }
 
+.centrar{
+	text-align: center;
+}
