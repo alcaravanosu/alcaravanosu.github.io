@@ -1,0 +1,14 @@
+-
+ titulo: Desarrollo de software
+ herramienta:
+  -
+   nombre: Escritorio
+   valor: 6
+  -
+   nombre: Web
+   valor: 9
+  -
+   nombre: Mobil
+   valor: 5
+ ico:
+ tag: public tech

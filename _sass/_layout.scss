@@ -300,7 +300,8 @@ ul{
 }
 
 .tarjeta{
-	margin-left: 10px;	
+	margin-left: 10px;
+	margin-bottom: 15px;
 }
 
 .lista{
@@ -317,17 +318,36 @@ ul img{
 	font-size: $base-font-size - 1;
 	display: inline-block;
 }
+.item-rating{
+	width: 100%;
+	font-size: $base-font-size - 1;
+	display: flex;
+	//display: inline-grid; a mobil
+	margin-bottom: 5px;
+}
+.herramienta-nombre{
+	float: left;
+	width: 125px;
+	text-align: right;
+  margin-right: 40px;
+}
+.herramienta-barra{
+	float: right;
+	//width: 52%;
+	display: inline-block;
+	
+}
 
 .progress-bar{
 	float: left;
 }
 
-ul > li > div{
+.titulo{
 	font-weight: bold;
 }
 
-$base-cirulo-h: 20px;
-$base-cirulo-radius: 20px;
+$base-cirulo-h: 15px;
+$base-cirulo-radius: 15px;
 
 .circulo-lleno{
 	width: $base-cirulo-h;

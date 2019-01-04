@@ -1,16 +1,81 @@
 -
- desc: Marzo, 1988
- valor: 2
+ titulo: Tecnología web
+ herramienta:
+  -
+   nombre: HTML / CSS / PHP
+   valor: 8
+  -
+   nombre: Javascript
+   valor: 6
+ ico:
  tag: public
 -
- desc: Marzo, 1988
- valor: 5
+ titulo: CMS / Frameworks
+ herramienta:
+  -
+   nombre: Wordpress / Jekyll
+   valor: 7
+  -
+   nombre: Yii
+   valor: 8
+  -
+   nombre: Laravel
+   valor: 6
+ ico:
  tag: public
 -
- desc: Marzo, 1988
- valor: 9
- tag: public 
--
- desc: Marzo, 1988
- valor: 7
+ titulo: Lenguajes de programación
+ herramienta:
+  -
+   nombre: Python
+   valor: 4
+  -
+   nombre: Java / C / C++ / PHP
+   valor: 8
+  -
+   nombre: Visual Foxpro
+   valor: 6
+  -
+   nombre: Bash
+   valor: 7
+ ico:
  tag: public
+-
+ titulo: Sistema operativo
+ herramienta:
+  -
+   nombre: GNU/Linux
+   valor: 8
+  -
+   nombre: Ms. Windows (> XP)
+   valor: 7
+ ico:
+ tag: public
+-
+ titulo: Ofimatica
+ herramienta:
+  -
+   nombre: LibreOffice
+   valor: 9
+  -
+   nombre: Ms. Office
+   valor: 8
+ ico:
+ tag: public tech
+-
+ titulo: Sistema gestor de base de datos
+ herramienta:
+  -
+   nombre: PostgreSQL / Mysql
+   valor: 8
+  -
+   nombre: Oracle
+   valor: 7
+  -
+   nombre: SQLite
+   valor: 4
+  -
+   nombre: Visual Foxpro
+   valor: 6
+ ico:
+ tag: public tech
