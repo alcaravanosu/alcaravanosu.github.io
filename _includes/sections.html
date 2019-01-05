@@ -9,7 +9,7 @@
 			<div class="rif">Rif: V185657678</div>
 		</div>
 		<div class="cv">Curriculum vitae {{page.lang}}</div>
-		<ul>
+		<ul class="tarjeta">
 			{% for dato in site.data.contacto %}
 				{% if dato.tag != 'private' %}
 				<li class="icon">{% include iconos/{{ dato.ico }} %} {{dato.desc}}</li>

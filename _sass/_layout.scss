@@ -1,10 +1,17 @@
+$color-bg-0: #720000;
+$color-con-0: #fff;
+
+$color-bg-1: #fff;
+$color-con-1: #720000;
 /**
  * Site header
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 10px;
+    background-color: $color-bg-0;
+		color: $color-con-0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -26,14 +33,14 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 45px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $color-con-0;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -47,7 +54,7 @@
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $color-con-1;
         border-radius: 5px;
         text-align: right;
 
@@ -65,7 +72,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $color-con-1;
                 }
             }
         }
@@ -83,6 +90,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            color: $color-con-1;
 
             &:not(:last-child) {
                 margin-right: 0;
@@ -168,7 +176,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: ($spacing-unit - 20) 0;
 }
 
 .page-heading {
@@ -240,12 +248,6 @@
         }
     }
 }
-
-$color-bg-0: #720000;
-$color-con-0: #fff;
-
-$color-bg-1: #fff;
-$color-con-1: #720000;
 
 .section-site0{
 	background-color: $color-bg-0;
@@ -394,4 +396,10 @@ hr{
 
 .centrar{
 	text-align: center;
+}
+
+.rrss{
+	padding: 0px 10px 0px 10px;
+	display: inline-block;
+	clear: left;
 }
