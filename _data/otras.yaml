@@ -10,9 +10,9 @@
   -
    nombre: Frances
    valor: 7
-#  -
-#   nombre: Italiano
-#   valor: 3
+  -
+   nombre: Italiano
+   valor: 4
 #  -
 #   nombre: Portugues
 #   valor: 2
@@ -35,6 +35,9 @@
   -
    nombre: Imagen
    valor: 8
+  -
+   nombre: Fotografia
+   valor: 9
   -
    nombre: Audio
    valor: 6
