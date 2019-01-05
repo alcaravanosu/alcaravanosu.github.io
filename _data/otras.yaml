@@ -16,7 +16,7 @@
 #  -
 #   nombre: Portugues
 #   valor: 2
- ico:
+ ico: Entypo/language.svg
  tag: public tech
 -
  titulo: Diseño
@@ -27,8 +27,8 @@
   -
    nombre: Ad. Photoshop
    valor: 7
- ico:
- tag: public tech
+ ico: Entypo/layers.svg
+ tag: public tech art
 -
  titulo: Multimedia
  lista:
@@ -44,5 +44,5 @@
   -
    nombre: Video
    valor: 7
- ico:
- tag: public tech
+ ico: Entypo/video.svg
+ tag: public tech atr

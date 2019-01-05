@@ -1,12 +1,17 @@
 -
  tag: herramientas
- ico:
- observacion: >
-  Experiencia en modelado de BBDD. Conocimientos de fundamentos de redes y
-  telecomunicaciones.
+ ico: Jam/terminal.svg
+ observacion: Manejo de diferentes IDEs + utilidad de consola / terminal.
 -
  tag: herramientas
- ico:
+ ico: Entypo/message.svg
+ observacion: Habilidad para adaptarse a cualquier tipo de sistema o software.
+-
+ tag: herramientas
+ ico: Entypo/cog.svg
  observacion: >
-  Habilidad para adaptarse a cualquier tipo de sistema o software.<br>
-  Manejo de diferentes IDEs + utilidad de consola / terminal.
+  Experiencia en modelado de BBDD. 
+-
+ tag: herramientas
+ ico: Entypo/cog.svg
+ observacion: Conocimientos de fundamentos de redes y telecomunicaciones.

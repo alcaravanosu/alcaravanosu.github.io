@@ -302,7 +302,7 @@ ul{
 }
 
 .tarjeta{
-	margin-left: 10px;
+	margin-left: 0px;
 	margin-bottom: 15px;
 }
 
@@ -327,6 +327,11 @@ ul img{
 	//display: inline-grid; a mobil
 	margin-bottom: 5px;
 }
+
+.margen-izq{
+ margin-left: 25px
+}
+
 .herramienta-nombre{
 	float: left;
 	width: 125px;
@@ -346,6 +351,8 @@ ul img{
 
 .titulo{
 	font-weight: bold;
+	display: inline-block;
+	width: 90%;
 }
 
 $base-cirulo-h: 15px;
@@ -402,4 +409,29 @@ hr{
 	padding: 0px 10px 0px 10px;
 	display: inline-block;
 	clear: left;
+}
+
+.icono{
+	display: inline-block;
+	margin-right: 5px;
+	width: 16px;
+	height:16px;
+}
+.blanco{
+	> svg{
+		path{
+			fill: #fff;
+		}
+	}
+}
+.tinto{
+	> svg{
+		path{
+			fill: #720000;
+		}
+	}
+}
+
+.observacion{
+	display: inline-block;
 }

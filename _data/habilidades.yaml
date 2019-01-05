@@ -10,7 +10,7 @@
   -
    nombre: Mobil
    valor: 5
- ico:
+ ico: Entypo/tools.svg
  tag: public tech
 -
  habilidad: >
@@ -18,10 +18,10 @@
   Capacidad para adaptarse a cualquier ambiente y equipo de trabajo.<br>
   Proactivo, pragmático, autodidacta y minimalista.<br>
   Capaz de tomar decisiones bajo presión.
- ico:
+ ico: Entypo/info-with-circle.svg
 -
- habilidad: Destreza en el manejo de cámaras (video y fotografía) + composición audiovisual y fotográfica. 
- ico:
- -
+ habilidad: Destreza en el manejo de cámaras (video y fotografía) + composición audiovisual y fotográfica.
+ ico: Entypo/camera.svg
+-
  habilidad: Conocimiento y habilidad de edición y montaje de audiovisuales, audio e imágenes
- ico:
+ ico: Entypo/video-camera.svg

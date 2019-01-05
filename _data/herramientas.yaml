@@ -7,7 +7,7 @@
   -
    nombre: Javascript
    valor: 6
- ico:
+ ico: Entypo/code.svg
  tag: public
 -
  titulo: CMS / Frameworks
@@ -21,7 +21,7 @@
   -
    nombre: Laravel
    valor: 6
- ico:
+ ico: Entypo/gauge.svg
  tag: public
 -
  titulo: Lenguajes de programación
@@ -38,7 +38,7 @@
   -
    nombre: Bash
    valor: 7
- ico:
+ ico: Entypo/bug.svg
  tag: public
 -
  titulo: Sistema operativo
@@ -49,7 +49,7 @@
   -
    nombre: Ms. Windows (> XP)
    valor: 7
- ico:
+ ico: Entypo/laptop.svg
  tag: public
 -
  titulo: Ofimatica
@@ -60,10 +60,10 @@
   -
    nombre: Ms. Office
    valor: 8
- ico:
+ ico: Entypo/folder.svg
  tag: public tech
 -
- titulo: Sistema gestor de base de datos
+ titulo: Gestor de base de datos
  herramienta:
   -
    nombre: PostgreSQL / Mysql
@@ -77,5 +77,5 @@
   -
    nombre: Visual Foxpro
    valor: 6
- ico:
+ ico: Entypo/database.svg
  tag: public tech
