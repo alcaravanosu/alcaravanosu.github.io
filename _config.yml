@@ -9,11 +9,12 @@
 title: Raúl Andrés Casanova Sosa - CV
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  This site was build using GitLab Pages - Jekyll
+  Curriculum Vitae - Raúl Andrés Casanova Sosa
 baseurl: "/bio" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 twitter_username: erreaceese
-github_username:  alcaravanosu
+gitlab_username:  alcaravanosu
+telegram_username: alcaravan_osu
 
 # Build settings
 markdown: kramdown

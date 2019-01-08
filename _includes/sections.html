@@ -17,7 +17,7 @@
 			{% endfor %}
 		</ul>
 	</div>
-<section>
+</section>
 
 <section class="section-site1">
 	<div class="wrapper">
@@ -32,7 +32,7 @@
 			{% endfor %}
 		</ul>
 	</div>
-<section>
+</section>
 
 <section class="section-site0">
 	<div class="wrapper">
@@ -67,7 +67,7 @@
 			{% endfor %}
 		</ul>
 	</div>
-<section>
+</section>
 
 <section class="section-site1">
 	<div class="wrapper">
@@ -87,7 +87,7 @@
 			{% endfor %}
 		</ul>
 	</div>
-<section>
+</section>
 
 <section class="section-site0">
 	<div class="wrapper">
@@ -113,13 +113,13 @@
 			{% for obs in site.data.observaciones %}
 				{% if obs.tag == "herramientas" %}
 					<li class="item">
-					 <div class="icon blanco icono">{% include iconos/{{ obs.ico }} %}</div><p class="observacion">{{obs.observacion}}</p>
+					 <span class="icon blanco icono">{% include iconos/{{ obs.ico }} %}</span><p class="observacion">{{obs.observacion}}</p>
 					</li>
 				{% endif %}
 			{% endfor %}
 		</ul>
 	</div>
-<section>
+</section>
 
 <section class="section-site1">
 	<div class="wrapper lista">
@@ -139,7 +139,7 @@
 								{% endfor %}
 							</ul>
 						{% else %}
-							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}</div><div class="">{{hab.habilidad}}</div>
+							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}</div><p class="observacion">{{hab.habilidad}}</p>
 						{% endif %}
 					</li>
 				{% endfor %}
@@ -164,4 +164,4 @@
 			</ul>
 		</div>
 	</div>
-<section>
+</section>

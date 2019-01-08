@@ -249,6 +249,8 @@ $color-con-1: #720000;
     }
 }
 
+$tamaño-desc: 340px;
+
 .section-site0{
 	background-color: $color-bg-0;
 	color: $color-con-0;
@@ -416,6 +418,7 @@ hr{
 	margin-right: 5px;
 	width: 16px;
 	height:16px;
+	vertical-align: top;
 }
 .blanco{
 	> svg{
@@ -434,4 +437,5 @@ hr{
 
 .observacion{
 	display: inline-block;
+	width: $tamaño-desc;
 }
