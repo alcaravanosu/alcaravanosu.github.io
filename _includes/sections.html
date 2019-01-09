@@ -1,3 +1,4 @@
+<!--Datos Personales-->
 <section class="section-site0">
 	<div class="wrapper">
 		<img class="foto" 
@@ -8,7 +9,7 @@
 			<div class="last-name2">Sosa</div>
 			<div class="rif">Rif: V185657678</div>
 		</div>
-		<div class="cv">Curriculum vitae {{page.lang}}</div>
+		<div class="cv">Curriculum vitae</div>
 		<ul class="tarjeta">
 			{% for dato in site.data.contacto %}
 				{% if dato.tag != 'private' %}
@@ -19,6 +20,7 @@
 	</div>
 </section>
 
+<!--Sec. Educacion-->
 <section class="section-site1">
 	<div class="wrapper">
 		<h2>EDUCACIÓN</h2>
@@ -34,6 +36,7 @@
 	</div>
 </section>
 
+<!--Sec. Experiencia-->
 <section class="section-site0">
 	<div class="wrapper">
 		<h2>EXPERIENCIA</h2>
@@ -54,7 +57,8 @@
 				</li>
 			{% endfor %}
 		</ul>
-		<hr><!-- RECONOCIMIENTOS -->
+		<!-- RECONOCIMIENTOS -->
+		<hr>
 		<ul class="lista tarjeta">
 			{% for reco in site.data.reconocimientos %}
 				<li class="item">
@@ -69,6 +73,7 @@
 	</div>
 </section>
 
+<!--Sec. Cursos y eventos-->
 <section class="section-site1">
 	<div class="wrapper">
 		<h2>CURSOS Y EVENTOS</h2>
@@ -89,6 +94,7 @@
 	</div>
 </section>
 
+<!--Sec. Lenguajes y herramientas-->
 <section class="section-site0">
 	<div class="wrapper">
 		<h2>LENGUAJES Y HERRAMIENTAS</h2>
@@ -121,6 +127,7 @@
 	</div>
 </section>
 
+<!--Sec. Habilidades, destrezas y otras-->
 <section class="section-site1">
 	<div class="wrapper lista">
 		<div>

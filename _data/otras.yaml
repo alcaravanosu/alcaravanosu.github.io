@@ -25,6 +25,9 @@
    nombre: Gimp + Inkscape
    valor: 6
   -
+   nombre: Darktable
+   valor: 7
+  -
    nombre: Ad. Photoshop
    valor: 7
  ico: Entypo/layers.svg
@@ -32,9 +35,6 @@
 -
  titulo: Multimedia
  lista:
-  -
-   nombre: Imagen
-   valor: 8
   -
    nombre: Fotografia
    valor: 9
