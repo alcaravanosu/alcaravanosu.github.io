@@ -1,96 +1,168 @@
 -
- titulo: Criptomonedas
- fecha: Diciembre, 2018.
- lugar: San Cristobal.
- institucion: Universidad Nacional Experimental del Táchira - Grupo Tachcoin
+ titulo: 
+  ESP: Criptomonedas
+  ENG: Cryptocurrencies
+ fecha: 
+  ESP: Diciembre, 2018
+  ENG: December, 2018
+ lugar: &SC San Cristóbal
+ institucion: 
+  ESP: Universidad Nacional Experimental del Táchira - Grupo Tachcoin
+  ENG: Universidad Nacional Experimental del Táchira - Tachcoin Group
  horas: 24 h.
  ico: Entypo/cw.svg
  tag: resume tech
 -
- titulo: Introduction to Linux (LinuxFoundationX - LFS101x)
- fecha: Septiembre, 2018.
- lugar: Internet.
- institucion: Linux Foundation (edx.org).
+ titulo: 
+  ESP: Introducción a Linux (LinuxFoundationX - LFS101x)
+  ENG: Introduction to Linux (LinuxFoundationX - LFS101x)
+ fecha: 
+  ESP: Septiembre, 2018
+  ENG: September, 2018
+ lugar: Internet
+ institucion: 
+  ESP: Fundación Linux (edx.org)
+  ENG: Linux Foundation (edx.org)
  horas:
  ico: 
  tag: resume tech
 -
- titulo: Project Managament Life Cycle (RITx - P9001x)
- fecha: Julio, 2018.
- lugar: Internet.
- institucion: Rochester Institute of Technology (edx.org).
+ titulo: 
+  ESP: Ciclo de vide de manejo de proyectos (RITx - P9001x)
+  ENG: Project Managament Life Cycle (RITx - P9001x)
+ fecha: 
+  ESP: Julio, 2018
+  ENG: July, 2018
+ lugar: Internet
+ institucion: 
+  ESP: Rochester Institute of Technology (edx.org)
+  ENG: Rochester Institute of Technology (edx.org)
  horas:
  ico: 
  tag: resume tech art
 -
- titulo: Curso de francés
- fecha: Abril 2016 (Nivel II). Julio 2015 (Nivel I). Mayo 2015 (Intro).
- lugar: San Cristóbal.
- institucion: Coor. Formación Permanente, Universidad Nacional Experimental del Táchira.
+ titulo: 
+  ESP: Curso de francés
+  ENG: French Course
+ fecha: 
+  ESP: Abril 2016 (Nivel II). Julio 2015 (Nivel I). Mayo 2015 (Intro)
+  ENG: April 2016 (Level II). July 2015 (Level I). May 2015 (Intro)
+ lugar: *SC
+ institucion: 
+  ESP: Coor. Formación Permanente, Universidad Nacional Experimental del Táchira
+  ENG: Coor. Formación Permanente, Universidad Nacional Experimental del Táchira
  horas: 40 h.
  ico: 
  tag: resume tech art
 -
- titulo: Taller interactivo. Nuevas tendencias en manejo estrategico de RRSS
- fecha: Octubre, 2015.
- lugar: San Cristóbal.
- institucion: IMAPYC.
+ titulo: 
+  ESP: Taller interactivo. Nuevas tendencias en manejo estrategico de RRSS
+  ENG: Workshop. New tendencies in social media strategic managemanet
+ fecha: 
+  ESP: Octubre, 2015
+  ENG: October, 2015
+ lugar: *SC
+ institucion: 
+  ESP: IMAPYC
+  ENG: IMAPYC
  horas:
  ico: 
  tag: resume tech art
 -
- titulo: Comunicaciones Satelitales
- fecha: Agosto, 2015.
- lugar: Internet.
- institucion: SAD, CONATEL.
+ titulo: 
+  ESP: Comunicaciones Satelitales
+  ENG: Satellites Comunications
+ fecha: 
+  ESP: Agosto, 2015
+  ENG: August, 2015
+ lugar: Internet
+ institucion: 
+  ESP: SAD, CONATEL
+  ENG: SAD, CONATEL
  horas:
  ico: 
  tag: resume tech
 -
- titulo: Congreso nacional de software libre
- fecha: Mayo, 2013. Junio, 2014.
- lugar: San Cristóbal.
- institucion: Proyecto GNU de Venezuela.
+ titulo: 
+  ESP: Congreso nacional de software libre
+  ENG: Free Software National Congress
+ fecha: 
+  ESP: Mayo, 2013. Junio, 2014
+  ENG: May, 2013. June, 2014
+ lugar: *SC
+ institucion: 
+  ESP: Proyecto GNU de Venezuela
+  ENG: Venezuela GNU Project
  horas:
  ico: 
  tag: resume tech
 -
- titulo: Tecnópolis. Festival de software, hardware y cultura libre
- fecha: Septiembre, 2013.
- lugar: San Cristóbal.
- institucion: Ministerio del poder popular para la cultura + Comunidad GNUCHOX.
+ titulo: 
+  ESP: Tecnópolis. Festival de software, hardware y cultura libre
+  ENG: Tecnopolis. Free software, hardware and culture festival 
+ fecha: 
+  ESP: Septiembre, 2013
+  ENG: September, 2013
+ lugar: *SC
+ institucion: 
+  ESP: Ministerio del poder popular para la cultura + Comunidad GNUCHOX
+  ENG: Ministerio del poder popular para la cultura + GNUCHOX Community
  horas:
  ico: 
  tag: resume tech art
 -
- titulo: Metro style apps
- fecha: Mayo, 2012.
- lugar: San Cristóbal.
- institucion: Microsoft, escuelas tecnológicas + Instituto Universitario de Tecnología “Antonio José de Sucre”, Coordinación Académica.
+ titulo: 
+  ESP: Metro style apps
+  ENG: Metro style apps
+ fecha: 
+  ESP: Mayo, 2012
+  ENG: May, 2012
+ lugar: *SC
+ institucion: 
+  ESP: Microsoft, escuelas tecnológicas + Instituto Universitario de Tecnología “Antonio José de Sucre”, Coordinación Académica
+  ENG: Microsoft, escuelas tecnológicas + Instituto Universitario de Tecnología “Antonio José de Sucre”, Coordinación Académica
  horas:
  ico: 
  tag: resume tech
 -
- titulo: Curso de diseño de sitios web
- fecha: Julio, 2010.
- lugar: San Cristóbal.
- institucion: Decanato de Formación Permanente, Universidad Nacional Experimental del Táchira.
+ titulo: 
+  ESP: Curso de diseño de sitios web
+  ENG: Websites design course
+ fecha: 
+  ESP: Julio, 2010
+  ENG: July, 2010
+ lugar: *SC
+ institucion: 
+  ESP: Decanato de Formación Permanente, Universidad Nacional Experimental del Táchira
+  ENG: Decanato de Formación Permanente, Universidad Nacional Experimental del Táchira
  horas:
  ico: 
  tag: resume tech
 -
- titulo: V Congreso internacional tecnología web, informática & e-business
- fecha: Mayo, 2009.
- lugar: Mérida.
- institucion: Fundación académica integral de bienes electrónicos, sistemas y servicios,  Funda CIBESS + Gerenglob.
+ titulo: 
+  ESP: V Congreso internacional tecnología web, informática & e-business
+  ENG: V International Congress of web technology, informatic & e-business
+ fecha: 
+  ESP: Mayo, 2009
+  ENG: May, 2009
+ lugar: Mérida
+ institucion: 
+  ESP: Fundación académica integral de bienes electrónicos, sistemas y servicios,  Funda CIBESS + Gerenglob
+  ENG: Funda CIBESS + Gerenglob
  horas:
  ico: 
  tag: resume tech
 -
- titulo: Curso de técnicas de locución y oratoria
- fecha: Febrero, 2006.
- lugar: San Cristóbal.
- institucion: Consejo Nacional de la Cultura, Ateneo del Táchira. Ministerio de la Cultura.
+ titulo: 
+  ESP: Curso de técnicas de locución y oratoria
+  ENG: Curso de técnicas de locución y oratoria
+ fecha: 
+  ESP: Febrero, 2006
+  ENG: February, 2006
+ lugar: *SC
+ institucion: 
+  ESP: Consejo Nacional de la Cultura, Ateneo del Táchira. Ministerio de la Cultura
+  ENG: Consejo Nacional de la Cultura, Ateneo del Táchira. Ministerio de la Cultura
  horas:
  ico: 
  tag: resume tech art

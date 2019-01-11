@@ -1,150 +1,330 @@
 -
- titulo: Analista de sistemas
- fecha_in: Desde Septiembre, 2017.
+ titulo: 
+  ESP: Analista de sistemas
+  ENG: Systems analyst
+ fecha_in:
+  ESP: Desde septiembre, 2017
+  ENG: Since september, 2017
  fecha_out:
- rol: Administrador de sistemas + Desarrollador web.
- empresa: Centro de computación, Universidad Nacional Experimental del Táchira.
- ciudad: San Cristóbal.
+  ESP:
+  ENG:
+ rol: 
+  ESP: Administrador de sistemas + Desarrollador web
+  ENG: System administrator + Web developer
+ empresa: 
+  ESP: Centro de computación, Universidad Nacional Experimental del Táchira
+  ENG: Computing center, Universidad Nacional Experimental del Táchira
+ ciudad: 
+  ESP: &SC San Cristóbal
+  ENG: *SC
  contacto: RRHH (rrhh@unet.edu.ve)
  ico: Entypo/tag.svg
  tag: resume tech
 -
- titulo: Ingeniero desarrollador
- fecha_in: Junio-
- fecha_out: Diciembre, 2018.
- rol: Analista de sistemas + Desarrollador web.
- empresa: Open Tenología SA, a traves de Grupo XXI Tecnologia Para El Siglo SAS (Colombia).
- ciudad: Remoto.
+ titulo:
+  ESP: Ingeniero desarrollador
+  ENG: Software engineer
+ fecha_in: 
+  ESP: Junio-
+  ENG: June-
+ fecha_out: 
+  ESP: Diciembre, 2018
+  ENG: December, 2018
+ rol:
+  ESP: Analista de sistemas + Desarrollador web.
+  ENG: Systems analyst + Web developer
+ empresa: 
+  ESP: Open Tenología SA, a traves de Grupo XXI Tecnologia Para El Siglo SAS (Colombia)
+  ENG: Open Tenología SA, through Grupo XXI Tecnologia Para El Siglo SAS (Colombia)
+ ciudad: 
+  ESP: Remoto
+  ENG: Remote
  contacto: Alexander Gordillo (alex.gordillo@open-eb.co) + Héctor Maimone (hmaimone@grupoxxi.com.co)
  ico: 
  tag: resume tech
 -
- titulo: Equipo técnico + Registro fotográfico y audiovisual
- fecha_in: 2012- .
+ titulo: 
+  ESP: Equipo técnico + Registro fotográfico y audiovisual
+  ENG: Technical team + Photographic and audiovisual registry
+ fecha_in: 
+  ESP: Desde 2012
+  ENG: Since 2012
  fecha_out: 
- rol: Fotografía y audiovisuales.
- empresa: Grupo Experimental de Teatro UNET, GETUNET + Incinerador Teatro, CA.
- ciudad: San Cristóbal.
+  ESP:
+  ENG:
+ rol: 
+  ESP: Fotografía y audiovisuales
+  ENG: Photography and audiovisual
+ empresa: 
+  ESP: Grupo Experimental de Teatro UNET, GETUNET + Incinerador Teatro, CA
+  ENG: Experimental Theater Group UNET, GETUNET + Incinerador Teatro, CA
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
  contacto:
  ico: 
  tag: resume art
 -
- titulo: Colaborador activo
- fecha_in: 2014- .
+ titulo: 
+  ESP: Colaborador activo
+  ENG: Voluntary
+ fecha_in: 
+  ESP: Desde 2014
+  ENG: Since 2014
  fecha_out: 
- rol: Eventos y equipo técnico.
- empresa: Fundación Cultural BORDES.
- ciudad: San Cristóbal.
- contacto: Fania Castillo (faniacastillo@gmail.com)
+  ESP:
+  ENG:
+ rol: 
+  ESP: Eventos y equipo técnico
+  ENG: Events and technical team
+ empresa: 
+  ESP: &bordes_esp Fundación Cultural BORDES
+  ENG: &bordes_eng Cultural Foundation BORDES
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
+ contacto: &fania Fania Castillo (faniacastillo@gmail.com)
  ico: 
  tag: resume art
 -
- titulo: Reportero gráfico
- fecha_in: Junio
- fecha_out: -Septiembre, 2017
- rol: Fotografía y audiovisuales.
- empresa: Diario de los Andes, CA
- ciudad: San Cristóbal.
+ titulo:
+  ESP: Reportero gráfico
+  ENG: Photojournalist
+ fecha_in: 
+  ESP: Junio
+  ENG: June
+ fecha_out: 
+  ESP: -Septiembre, 2017
+  ENG: -September, 2017
+ rol: 
+  ESP: Fotografía y audiovisuales
+  ENG: Photography and audiovisual
+ empresa: 
+  ESP: Diario de los Andes, CA
+  ENG: Diario de los Andes, CA
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
  contacto: Administracion DLA (administracion.tachira@diariodelosandes.com)
  ico: 
  tag: resume tech art
 -
- titulo: Administrador web
- fecha_in: 2014-
- fecha_out: 2017.
- rol: Actualización, mantenimiento y diseño web.
- empresa: Fundación cultural BORDES.
- ciudad: San Cristóbal.
- contacto: Fania Castillo (faniacastillo@gmail.com)
+ titulo: 
+  ESP: Administrador web
+  ENG: Web Administrator
+ fecha_in: 
+  ESP: 2014-
+  ENG: 2014-
+ fecha_out: 
+  ESP: 2017
+  ENG: 2017
+ rol: 
+  ESP: Actualización, mantenimiento y diseño web
+  ENG: Update, maintenance and web design
+ empresa: 
+  ESP: *bordes_esp
+  ENG: *bordes_eng
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
+ contacto: *fania
  ico: 
  tag: resume tech art
 -
- titulo: Asistente de producción
- fecha_in: 2014-
- fecha_out: 2017.
- rol: Organizador y coordinador de eventos.
- empresa: Fundación cultural BORDES.
- ciudad: San Cristóbal.
- contacto: Fania Castillo (faniacastillo@gmail.com)
+ titulo: 
+  ESP: Asistente de producción
+  ENG: Production assistant
+ fecha_in: 
+  ESP: 2014-
+  ENG: 2014-
+ fecha_out: 
+  ESP: 2017
+  ENG: 2017
+ rol: 
+  ESP: Organizador y coordinador de eventos
+  ENG: Events manager and coordinator
+ empresa: 
+  ESP: *bordes_esp
+  ENG: *bordes_eng
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
+ contacto: *fania
  ico: 
  tag: resume art
 -
- titulo: Ingeniero desarrollador
- fecha_in: Agosto-
- fecha_out: Diciembre, 2016.
- rol: Tres proyectos. Administrador de base de datos + Desarrollador movil + Desarrollador web. 
- empresa: Backlayer (Panamá).
- ciudad: Remoto.
+ titulo: 
+  ESP: Ingeniero desarrollador
+  ENG: Software engineer
+ fecha_in: 
+  ESP: Agosto-
+  ENG: August-
+ fecha_out: 
+  ESP: Diciembre, 2016
+  ENG: December, 2016
+ rol: 
+  ESP: Tres proyectos. Administrador de base de datos + Desarrollador movil + Desarrollador web
+  ENG: Three proyects. Data base administrator + Web developer + Mobil developer
+ empresa: 
+  ESP: Backlayer (Panamá)
+  ENG: Backlayer (Panamá)
+ ciudad: 
+  ESP: Remoto
+  ENG: Remote
  contacto: Marco Pirrongelli (mp@backlayer.com)
  ico: 
  tag: resume tech
 -
- titulo: Coor. de proyecciones + Coor. Técnica
- fecha_in: Julio, 2016.
+ titulo: 
+  ESP: Coor. de proyecciones + Coor. Técnica
+  ENG: Projections coor. + Technical coor
+ fecha_in: 
+  ESP: Julio, 2016
+  ENG: July, 2016
  fecha_out: 
- rol: VI Encuentro para cinéfagos,
- empresa: Fundación cultural BORDES.
- ciudad: San Cristóbal.
- contacto: Fania Castillo (faniacastillo@gmail.com)
+  ESP: 
+  ENG: 
+ rol: 
+  ESP: VI Encuentro para cinéfagos 
+  ENG: VI Encuentro para cinéfagos
+ empresa: 
+  ESP: *bordes_esp
+  ENG: *bordes_eng
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
+ contacto: *fania
  ico: 
  tag: resume tech art
 -
- titulo: Comité organizador + Coor. Técnica
- fecha_in: Octubre, 2015.
+ titulo: 
+  ESP: Comité organizador + Coor. Técnica
+  ENG: Organizing Committee + Technical coor
+ fecha_in: 
+  ESP: Octubre, 2015
+  ENG: October, 2015
  fecha_out: 
- rol: VI Seminario Bordes, Identidades minimas,
- empresa: Fundación cultural BORDES.
- ciudad: San Cristóbal.
- contacto: Fania Castillo (faniacastillo@gmail.com)
+  ESP: 
+  ENG: 
+ rol: 
+  ESP: VI Seminario Bordes, Identidades minimas 
+  ENG: VI Seminario Bordes, Identidades minimas
+ empresa: 
+  ESP: *bordes_esp
+  ENG: *bordes_eng
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
+ contacto: *fania
  ico: 
  tag: resume tech art
 -
- titulo: Coor. Técnica
- fecha_in: Agosto, 2015.
- fecha_out: 
- rol: V Encuentro para cinéfagos,
- empresa: Fundación cultural BORDES.
- ciudad: San Cristóbal.
- contacto: Fania Castillo (faniacastillo@gmail.com)
+ titulo:
+  ESP: Coor. Técnica
+  ENG: Technical coor
+ fecha_in: 
+  ESP: Agosto, 2015
+  ENG: August, 2015
+ fecha_out:
+  ESP:
+  ENG:
+ rol: 
+  ESP: V Encuentro para cinéfagos 
+  ENG: V Encuentro para cinéfagos
+ empresa: 
+  ESP: *bordes_esp
+  ENG: *bordes_eng
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
+ contacto: *fania
  ico: 
  tag: resume tech art
 -
- titulo: Diseñador + Coor. de ventas
- fecha_in: 2013-
- fecha_out: 2015.
- rol: Diseño de etiquetas + Ventas.
- empresa: Invesiones Sol y Miel, CA.
- ciudad: San Cristóbal.
+ titulo: 
+  ESP: Diseñador + Coor. de ventas
+  ENG: Designer + Sales coordinator
+ fecha_in: 
+  ESP: 2013-
+  ENG: 2013-
+ fecha_out: 
+  ESP: 2015
+  ENG: 2015
+ rol: 
+  ESP: Diseño de etiquetas + Ventas 
+  ENG: Label design + Sales
+ empresa: 
+  ESP: Invesiones Sol y Miel, CA
+  ENG: Invesiones Sol y Miel, CA
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
  contacto:
  ico: 
  tag: resume art
 -
- titulo: Pasantias
- fecha_in: Octubre-
- fecha_out: Enero, 2013.
- rol: Desarrollador web. 
- empresa: Instituto de beneficencia pública y bienestar social del Estado Táchira, Lotería del Táchira.
- ciudad: San Cristóbal.
+ titulo: 
+  ESP: Pasantias
+  ENG: Internships
+ fecha_in: 
+  ESP: Octubre-
+  ENG: October-
+ fecha_out: 
+  ESP: Enero, 2013
+  ENG: January, 2013
+ rol: 
+  ESP: Desarrollador web 
+  ENG: Web developer
+ empresa: 
+  ESP: Instituto de beneficencia pública y bienestar social del Estado Táchira, Lotería del Táchira
+  ENG: Instituto de beneficencia pública y bienestar social del Estado Táchira, Lotería del Táchira
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
  contacto:
  ico: 
  tag: resume tech
 -
- titulo: Director de imagen y diseño
- fecha_in: 2010-
- fecha_out: 2013.
- rol: Diseño de imagen y productos.
- empresa: Casa Nova rest, piano bar y festejos, CA
- ciudad: San Cristóbal.
+ titulo: 
+  ESP: Director de imagen y diseño
+  ENG: Manager of image and design
+ fecha_in: 
+  ESP: 2010-
+  ENG: 2010-
+ fecha_out: 
+  ESP: 2013
+  ENG: 2013
+ rol: 
+  ESP: Diseño de imagen y productos 
+  ENG: Design of image and products
+ empresa: 
+  ESP: Casa Nova rest, piano bar y festejos, CA
+  ENG: Casa Nova rest, piano bar y festejos, CA
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
  contacto:
  ico: 
  tag: resume art
 -
- titulo: Librero
- fecha_in: 2007-
- fecha_out: 2010.
- rol: Librero + Vendedor.
- empresa: Librería y galería Sin Limite, CA
- ciudad: San Cristóbal.
+ titulo: 
+  ESP: Librero
+  ENG: Librarian
+ fecha_in: 
+  ESP: 2007-
+  ENG: 2007-
+ fecha_out: 
+  ESP: 2010
+  ENG: 2010
+ rol: 
+  ESP: Librero + Vendedor. 
+  ENG: Librarian + Bookseller
+ empresa: 
+  ESP: Librería y galería Sin Limite, CA
+  ENG: Librería y galería Sin Limite, CA
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
  contacto:
  ico: 
  tag: resume art

@@ -371,6 +371,7 @@ $base-cirulo-radius: 15px;
   height: $base-cirulo-h;
   border-radius: $base-cirulo-radius;
   border: $color-bg-1 solid 2px;
+  margin: 0.5px;
 }
 .circulo-medio-1{
 	width: 50%;
@@ -390,6 +391,7 @@ $base-cirulo-radius: 15px;
   height: $base-cirulo-h;
   border-radius: $base-cirulo-radius;
   border: $color-bg-0 solid 2px;
+  margin: 0.5px;
 }
 .circulo-medio-0{
 	width: 50%;
@@ -438,4 +440,10 @@ hr{
 .observacion{
 	display: inline-block;
 	width: $tamaño-desc;
+}
+
+.hab-des-ot{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
 }

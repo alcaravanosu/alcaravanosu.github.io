@@ -1,29 +1,50 @@
 -
- titulo: TSU en informática
- fecha: Junio, 2013.
- institucion: Instituto Universitario de la Frontera.
+ titulo:
+  ESP: TSU en informática
+  ENG: Associates Degree/Certificate of Higher Education in Informatic
+ fecha: 
+  ESP: Junio,
+  ENG: June,
+ year: 2013
+ institucion: Instituto Universitario de la Frontera
  ico: Entypo/graduation-cap.svg
  tag: resume tech
  ciudad: San Cristóbal, Táchira
 -
- titulo: 6to semestre, Ing. en informática
+ titulo:
+  ESP: 6to semestre, Ing. en informática
+  ENG: 6th sem, Engineering in informátic
  fecha: 
- institucion: Universidad Nacional Experimental del Táchira.
+  ESP: 
+  ENG: 
+ year: 2013
+ institucion: Universidad Nacional Experimental del Táchira
  ico: Entypo/book.svg
  tag: resume tech
  ciudad: San Cristóbal, Táchira
 -
- titulo: Bachiller en ciencias
- fecha: Julio, 2005
- institucion: UE Colegio Cervantes.
+ titulo:
+  ESP: Bachiller en ciencias
+  ENG: High School Sc.
+ fecha: 
+  ESP: Julio,
+  ENG: july,
+ year: 2005 
+ institucion: UE Colegio Cervantes
  ico: Entypo/graduation-cap.svg
  tag: basic
  ciudad: San Cristóbal, Táchira
 -
- titulo: Educación básica
- fecha: Septiembre, 2003
- institucion: UE Colegio Cervantes.
+ titulo: 
+  ESP: Educación básica
+  ENG: Elementary school
+ fecha: 
+  ESP: Septiembre,
+  ENG: September,
+ year: 2003
+ institucion: UE Colegio Cervantes
  ico: Entypo/graduation-cap.svg
  tag: basic
  ciudad: San Cristóbal, Táchira
+
 

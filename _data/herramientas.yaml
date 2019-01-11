@@ -1,5 +1,7 @@
 -
- titulo: Tecnología web
+ titulo: 
+  ESP: Tecnologías Web
+  ENG: Web Technologies
  herramienta:
   -
    nombre: HTML / CSS / PHP
@@ -10,7 +12,9 @@
  ico: Entypo/code.svg
  tag: public
 -
- titulo: CMS / Frameworks
+ titulo: 
+  ESP: CMS / Frameworks
+  ENG: CMS / Frameworks
  herramienta:
   -
    nombre: Wordpress / Jekyll
@@ -24,7 +28,9 @@
  ico: Entypo/gauge.svg
  tag: public
 -
- titulo: Lenguajes de programación
+ titulo: 
+  ESP: Lenguajes de Programación
+  ENG: Programmig Languages
  herramienta:
   -
    nombre: Python
@@ -41,7 +47,9 @@
  ico: Entypo/bug.svg
  tag: public
 -
- titulo: Sistema operativo
+ titulo: 
+  ESP: Sistema Operativo
+  ENG: Operating Systems
  herramienta:
   -
    nombre: GNU/Linux
@@ -52,7 +60,9 @@
  ico: Entypo/laptop.svg
  tag: public
 -
- titulo: Ofimatica
+ titulo: 
+  ESP: Ofimática
+  ENG: Ofimatic
  herramienta:
   -
    nombre: LibreOffice
@@ -63,7 +73,9 @@
  ico: Entypo/folder.svg
  tag: public tech
 -
- titulo: Gestor de base de datos
+ titulo: 
+  ESP: Gestor de Base de Datos
+  ENG: Data Base Manager
  herramienta:
   -
    nombre: PostgreSQL / Mysql

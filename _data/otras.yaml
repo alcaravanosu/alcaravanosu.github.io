@@ -1,48 +1,76 @@
 -
- titulo: Idiomas
+ titulo: 
+  ESP: Idiomas
+  ENG: Languages
  lista:
   -
-   nombre: Español
+   nombre: 
+    ESP: Español
+    ENG: Spanish
    valor: 10
   -
-   nombre: Ingles
+   nombre: 
+    ESP: Ingles
+    ENG: English
    valor: 9
   -
-   nombre: Frances
+   nombre: 
+    ESP: Frances
+    ENG: French
    valor: 7
   -
-   nombre: Italiano
+   nombre: 
+    ESP: Italiano
+    ENG: Italian
    valor: 4
 #  -
 #   nombre: Portugues
+#    ESP:
+#    ENG:
 #   valor: 2
  ico: Entypo/language.svg
  tag: public tech
 -
- titulo: Diseño
+ titulo: 
+  ESP: Diseño
+  ENG: Design
  lista:
   -
-   nombre: Gimp + Inkscape
+   nombre: 
+    ESP: Gimp + Inkscape
+    ENG: Gimp + Inkscape
    valor: 6
   -
-   nombre: Darktable
+   nombre: 
+    ESP: Darktable
+    ENG: Darktable
    valor: 7
   -
-   nombre: Ad. Photoshop
+   nombre: 
+    ESP: Ad. Photoshop
+    ENG: Ad. Photoshop
    valor: 7
  ico: Entypo/layers.svg
  tag: public tech art
 -
- titulo: Multimedia
+ titulo: 
+  ESP: Multimedia
+  ENG: Multimedia
  lista:
   -
-   nombre: Fotografia
+   nombre: 
+    ESP: Fotografia
+    ENG: Photogrphy
    valor: 9
   -
-   nombre: Audio
+   nombre: 
+    ESP: Audio
+    ENG: Audio
    valor: 6
   -
-   nombre: Video
+   nombre: 
+    ESP: Video
+    ENG: Video
    valor: 7
  ico: Entypo/video.svg
  tag: public tech atr

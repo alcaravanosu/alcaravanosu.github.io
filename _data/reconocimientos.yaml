@@ -1,25 +1,44 @@
 -
- titulo: GANADOR VITRINA A LA EXCELENCIA TEG
- fecha: Mayo, 2013.
- lugar: San Cristóbal.
- institucion: Instituto Universitario de la Frontera.
- desc: >
-  Categoría Trabajo de Investigación, por la investigación: 
-  <i>Software de gestión para la unidad de registro y control de la Coordinación 
-  de pasantías y trabajo especial de grado, del Instituto Universitario de la 
-  Frontera, sede San Cristóbal.</i>
+ titulo: 
+  ESP: GANADOR VITRINA A LA EXCELENCIA TEG
+  ENG: WINNER VITRINA A LA EXCELENCIA TEG
+ fecha: 
+  ESP: Mayo, 2013
+  ENG: May, 2013
+ lugar: &SC San Cristóbal
+ institucion: &iufront Instituto Universitario de la Frontera
+ desc: 
+  ESP: >
+   Categoría Trabajo de Investigación, por la investigación: 
+   <i>Software de gestión para la unidad de registro y control de la Coordinación 
+   de pasantías y trabajo especial de grado, del Instituto Universitario de la 
+   Frontera, sede San Cristóbal.</i>
+  ENG: >
+   Research paper Categoy, for the research: <i>Software management for the register and 
+   control unit of internships and thesis Coordination, of the Instituto 
+   Universitario de la Frontera, core San Cristóbal</i>
  ico: Entypo/trophy.svg
  tag: resume tech
 -
- titulo: RECONOCIMIENTO TEG, CATEGORÍA EXCELENTE
- fecha: Enero, 2013.
- lugar: San Cristóbal.
- institucion: Instituto Universitario de la Frontera.
- desc: >
-  Reconocimiento de aprobación, categoría Excelente, por el Trabajo Especial de Grado,
-   Especialidad Informática: <i>Software de gestión para la unidad de registro 
-   y control de la Coordinación de pasantías y trabajo especial de grado, 
-   del Instituto Universitario de la Frontera, sede San Cristóbal.</i>
+ titulo: 
+  ESP: RECONOCIMIENTO TEG, CATEGORÍA EXCELENTE
+  ENG: RECOGNITION TEG, EXCELLENT CATEGORY
+ fecha: 
+  ESP: Enero, 2013
+  ENG: January, 2013
+ lugar: *SC
+ institucion: *iufront
+ desc: 
+  ESP: >
+   Reconocimiento de aprobación, categoría Excelente, por el Trabajo Especial
+   de Grado, Especialidad Informática: <i>Software de gestión para la unidad de
+   registro y control de la Coordinación de pasantías y trabajo especial de
+   grado, del Instituto Universitario de la Frontera, sede San Cristóbal.</i>    
+  ENG: >
+   Aproval Recognition , Excellent category, for the research, Informatic Specialty: 
+   <i>Software management for the register and 
+   control unit of internships and thesis Coordination, of the Instituto 
+   Universitario de la Frontera, core San Cristóbal</i>
  ico: Entypo/medal.svg
  tag: resume tech
 

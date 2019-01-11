@@ -1,27 +1,52 @@
 -
- titulo: Desarrollo de software
+ titulo: 
+  ESP: Desarrollo de software
+  ENG: Software Develoment
  lista:
   -
-   nombre: Escritorio
+   nombre: 
+    ESP: Escritorio
+    ENG: Desktop
    valor: 6
   -
-   nombre: Web
+   nombre: 
+    ESP: Web
+    ENG: Web
    valor: 9
   -
-   nombre: Mobil
+   nombre: 
+    ESP: Mobil
+    ENG: Mobil
    valor: 5
  ico: Entypo/tools.svg
  tag: public tech
 -
- habilidad: >
-  Habilidad oratoria y redacción, de persuasión.<br>
-  Capacidad para adaptarse a cualquier ambiente y equipo de trabajo.<br>
-  Proactivo, pragmático, autodidacta y minimalista.<br>
-  Capaz de tomar decisiones bajo presión.
+ habilidad: 
+  ESP: >
+   Habilidad oratoria y redacción, de persuasión.<br>
+   Capacidad para adaptarse a cualquier ambiente y equipo de trabajo.<br>
+   Proactivo, pragmático, autodidacta y minimalista.<br>
+   Capaz de tomar decisiones bajo presión.
+  ENG: >
+   Persuasion hability, writing and speaking.<br>
+   Adaptation capacity to whatever enviroment and team work.<br>
+   Proactive, pragmatic, self-taught and minimalist.<br>
+   Able to make decisions under pressure.
  ico: Entypo/info-with-circle.svg
 -
- habilidad: Destreza en el manejo de cámaras (video y fotografía) + composición audiovisual y fotográfica.
+ habilidad: 
+  ESP: >
+   Destreza en el manejo de cámaras (video y fotografía) 
+   + composición audiovisual y fotográfica.
+  ENG: >
+   Skill managing cameras (film and photograph)
+   + audiovisual and photographic composition.
  ico: Entypo/camera.svg
 -
- habilidad: Conocimiento y habilidad de edición y montaje de audiovisuales, audio e imágenes
+ habilidad: 
+  ESP: >
+   Conocimiento y habilidad de edición y montaje de video,
+    audio e imágenes
+  ENG: >
+   Knowledge to edit and montage video, sound and images.
  ico: Entypo/video-camera.svg

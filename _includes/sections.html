@@ -27,9 +27,10 @@
 		<ul class="lista tarjeta">
 			{% for edu in site.data.educacion %}
 				<li class="item">
-					<div class="icon tinto icono">{% include iconos/{{ edu.ico }} %}</div>
-					<div class="titulo">{{edu.titulo}}</div>
-					<p class="margen-izq">{{edu.fecha}} {{edu.institucion}} {{edu.ciudad}}</p>
+					<div class="icon tinto icono">{% include iconos/{{edu.ico}} %}
+					</div><div class="titulo">{{ edu.titulo[page.lang] }}</div>
+					<p class="margen-izq">{{edu.fecha[page.lang]}} {{edu.year}}. 
+						{{edu.institucion}}. {{edu.ciudad}}.</p>
 				</li>
 			{% endfor %}
 		</ul>
@@ -47,12 +48,13 @@
 						<div class="icon blanco icono">
 							{% include iconos/{{ exp.ico }} %}
 						</div>
-					{% else %} <div class="icono"><!--Vacio--></div>
+					{% else %}<div class="icono"><!--Vacio--></div>
 					{% endif %}
-					<div class="titulo">{{exp.titulo}}</div>
+					<div class="titulo">{{exp.titulo[page.lang]}}</div>
 					<p class="margen-izq">
-						{{exp.fecha_in}}{{exp.fecha_out}} {{exp.ciudad}} {{exp.rol}} 
-						{{exp.empresa}}
+						{{exp.fecha_in[page.lang]}}{{exp.fecha_out[page.lang]}}.
+						 {{exp.ciudad[page.lang]}}. {{exp.rol[page.lang]}}. 
+						{{exp.empresa[page.lang]}}.
 					</p>
 				</li>
 			{% endfor %}
@@ -62,10 +64,11 @@
 		<ul class="lista tarjeta">
 			{% for reco in site.data.reconocimientos %}
 				<li class="item">
-					<div class="icon blanco icono">{% include iconos/{{ reco.ico }} %}</div>
-					<div class="titulo">{{reco.titulo}}</div>
+					<div class="icon blanco icono">{% include iconos/{{reco.ico}} %}
+					</div><div class="titulo">{{reco.titulo[page.lang]}}</div>
 					<p class="margen-izq">
-						{{reco.fecha}} {{reco.ciudad}} {{reco.desc}} {{reco.institucion}}
+						{{reco.fecha[page.lang]}}. {{reco.ciudad}}. 
+						{{reco.desc[page.lang]}}. {{reco.institucion}}.
 					</p>
 				</li>
 			{% endfor %}
@@ -81,12 +84,14 @@
 			{% for asistente in site.data.cursos %}
 				<li class="item">
 					{% if asistente.ico %}
-					<div class="icon tinto icono">{% include iconos/{{ asistente.ico }} %}</div>
-					{% else %} <div class="icono"><!--Vacio--></div>
+					<div class="icon tinto icono">
+						{% include iconos/{{asistente.ico}} %}</div>
+					{% else %}<div class="icono"><!--Vacio--></div>
 					{% endif %}
-					<div class="titulo">{{asistente.titulo}}</div>
-					<p class="margen-izq">{{asistente.fecha}} {{asistente.lugar}} 
-						{{asistente.horas}} {{asistente.institucion}}
+					<div class="titulo">{{asistente.titulo[page.lang]}}</div>
+					<p class="margen-izq">
+						{{asistente.fecha[page.lang]}}. {{asistente.lugar}}. 
+						{{asistente.horas}} {{asistente.institucion[page.lang]}}.
 					</p>
 				</li>
 			{% endfor %}
@@ -101,8 +106,8 @@
 		<ul class="lista tarjeta">
 			{% for her in site.data.herramientas %}				
 				<li class="item">
-					<div class="icon blanco icono">{% include iconos/{{ her.ico }} %}</div>
-					<div class="titulo">{{her.titulo}}</div>
+					<div class="icon blanco icono">{% include iconos/{{her.ico}} %}
+					</div><div class="titulo">{{her.titulo[page.lang]}}</div>
 					<ul class="tarjeta">
 						{% for item in her.herramienta %}
 							<li class="item-rating">
@@ -119,7 +124,8 @@
 			{% for obs in site.data.observaciones %}
 				{% if obs.tag == "herramientas" %}
 					<li class="item">
-					 <span class="icon blanco icono">{% include iconos/{{ obs.ico }} %}</span><p class="observacion">{{obs.observacion}}</p>
+					 <span class="icon blanco icono">{% include iconos/{{obs.ico}} %}
+					 </span><p class="observacion">{{obs.observacion[page.lang]}}</p>
 					</li>
 				{% endif %}
 			{% endfor %}
@@ -129,39 +135,42 @@
 
 <!--Sec. Habilidades, destrezas y otras-->
 <section class="section-site1">
-	<div class="wrapper lista">
-		<div>
+	<div class="wrapper">
+		<div class="hab-des-ot">
 			<h2>HABILIDADES Y DESTREZAS</h2>
 			<ul class="tarjeta">
 				{% for hab in site.data.habilidades %}
 					<li class="item">
 						{% if hab.titulo %}
-							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}</div><div class="titulo">{{hab.titulo}}</div>
+							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}
+							</div><div class="titulo">{{hab.titulo[page.lang]}}</div>
 							<ul class="tarjeta">
 								{% for item in hab.lista %}
 									<li class="item-rating">
-										<div class="herramienta-nombre">{{item.nombre}}</div> 
+										<div class="herramienta-nombre">{{item.nombre[page.lang]}}</div> 
 										{% include progress.html color=0 valor=item.valor %}
 									</li>
 								{% endfor %}
 							</ul>
 						{% else %}
-							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}</div><p class="observacion">{{hab.habilidad}}</p>
+							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}
+							</div><p class="observacion">{{hab.habilidad[page.lang]}}</p>
 						{% endif %}
 					</li>
 				{% endfor %}
 			</ul>
 		</div>
-		<div>
+		<div class="hab-des-ot">
 			<h2>OTRAS CAPACIDADES</h2>
 			<ul class="tarjeta">
 				{% for otra in site.data.otras %}
 					<li class="item">
-						<div class="icon tinto icono">{% include iconos/{{ otra.ico }} %}</div><div class="titulo">{{otra.titulo}}</div>
+						<div class="icon tinto icono">{% include iconos/{{otra.ico}} %}</div>
+						<div class="titulo">{{otra.titulo[page.lang]}}</div>
 						<ul class="tarjeta">
 							{% for cap in otra.lista %}
 								<li class="item-rating">
-									<div class="herramienta-nombre">{{ cap.nombre }}</div>
+									<div class="herramienta-nombre">{{cap.nombre[page.lang]}}</div>
 									{% include progress.html color=0 valor=cap.valor %}
 								</li>
 							{% endfor %}

@@ -1,17 +1,24 @@
 -
  tag: herramientas
  ico: Jam/terminal.svg
- observacion: Manejo de diferentes IDEs + utilidad de consola / terminal.
+ observacion: 
+  ESP: Manejo de diferentes IDEs + utilidad de consola / terminal.
+  ENG: Adaptation to diferents IDEs + Console / terminal utilities.
 -
  tag: herramientas
  ico: Entypo/message.svg
- observacion: Habilidad para adaptarse a cualquier tipo de sistema o software.
+ observacion: 
+  ESP: Habilidad para adaptarse a cualquier tipo de sistema o software.
+  ENG: Hability to manage and understand any kind of software / system.
 -
  tag: herramientas
  ico: Entypo/cog.svg
- observacion: >
-  Experiencia en modelado de BBDD. 
+ observacion: 
+  ESP: Experiencia en modelado de BBDD.
+  ENG: Experience ER modeling DB.
 -
  tag: herramientas
  ico: Entypo/cog.svg
- observacion: Conocimientos de fundamentos de redes y telecomunicaciones.
+ observacion: 
+  ESP: Conocimientos de fundamentos de redes y telecomunicaciones.
+  ENG: Knowledge about networking and telecomunications.
