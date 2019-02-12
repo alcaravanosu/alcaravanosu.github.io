@@ -23,7 +23,7 @@
 <!--Sec. Educacion-->
 <section class="section-site1">
 	<div class="wrapper">
-		<h2>EDUCACIÓN</h2>
+		<h2>{{ site.data.secciones.educacion[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for edu in site.data.educacion %}
 				<li class="item">
@@ -40,7 +40,7 @@
 <!--Sec. Experiencia-->
 <section class="section-site0">
 	<div class="wrapper">
-		<h2>EXPERIENCIA</h2>
+		<h2>{{ site.data.secciones.experiencia[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for exp in site.data.experiencia %}
 				<li class="item">
@@ -79,7 +79,7 @@
 <!--Sec. Cursos y eventos-->
 <section class="section-site1">
 	<div class="wrapper">
-		<h2>CURSOS Y EVENTOS</h2>
+		<h2>{{ site.data.secciones.cursos[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for asistente in site.data.cursos %}
 				<li class="item">
@@ -102,7 +102,7 @@
 <!--Sec. Lenguajes y herramientas-->
 <section class="section-site0">
 	<div class="wrapper">
-		<h2>LENGUAJES Y HERRAMIENTAS</h2>
+		<h2>{{ site.data.secciones.lenguajes[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for her in site.data.herramientas %}				
 				<li class="item">
@@ -137,7 +137,7 @@
 <section class="section-site1">
 	<div class="wrapper">
 		<div class="hab-des-ot">
-			<h2>HABILIDADES Y DESTREZAS</h2>
+			<h2>{{ site.data.secciones.habilidades[page.lang] }}</h2>
 			<ul class="tarjeta">
 				{% for hab in site.data.habilidades %}
 					<li class="item">
@@ -161,7 +161,7 @@
 			</ul>
 		</div>
 		<div class="hab-des-ot">
-			<h2>OTRAS CAPACIDADES</h2>
+			<h2>{{ site.data.secciones.otras[page.lang] }}</h2>
 			<ul class="tarjeta">
 				{% for otra in site.data.otras %}
 					<li class="item">

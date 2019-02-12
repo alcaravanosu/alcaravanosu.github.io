@@ -28,7 +28,7 @@
  tag: resume tech
 -
  titulo: 
-  ESP: Ciclo de vide de manejo de proyectos (RITx - P9001x)
+  ESP: Ciclo de vida del manejo de proyectos (RITx - P9001x)
   ENG: Project Managament Life Cycle (RITx - P9001x)
  fecha: 
   ESP: Julio, 2018
@@ -106,7 +106,7 @@
  lugar: *SC
  institucion: 
   ESP: Ministerio del poder popular para la cultura + Comunidad GNUCHOX
-  ENG: Ministerio del poder popular para la cultura + GNUCHOX Community
+  ENG: Culture Minitry + GNUCHOX Community
  horas:
  ico: 
  tag: resume tech art
@@ -120,7 +120,7 @@
  lugar: *SC
  institucion: 
   ESP: Microsoft, escuelas tecnológicas + Instituto Universitario de Tecnología “Antonio José de Sucre”, Coordinación Académica
-  ENG: Microsoft, escuelas tecnológicas + Instituto Universitario de Tecnología “Antonio José de Sucre”, Coordinación Académica
+  ENG: Microsoft, technological schools + Instituto Universitario de Tecnología “Antonio José de Sucre”, Coordinación Académica
  horas:
  ico: 
  tag: resume tech
@@ -147,7 +147,7 @@
   ENG: May, 2009
  lugar: Mérida
  institucion: 
-  ESP: Fundación académica integral de bienes electrónicos, sistemas y servicios,  Funda CIBESS + Gerenglob
+  ESP: Fundación académica integral de bienes electrónicos, sistemas y servicios, Funda CIBESS + Gerenglob
   ENG: Funda CIBESS + Gerenglob
  horas:
  ico: 
@@ -155,14 +155,14 @@
 -
  titulo: 
   ESP: Curso de técnicas de locución y oratoria
-  ENG: Curso de técnicas de locución y oratoria
+  ENG: Course in speech and oratory techniques
  fecha: 
   ESP: Febrero, 2006
   ENG: February, 2006
  lugar: *SC
  institucion: 
   ESP: Consejo Nacional de la Cultura, Ateneo del Táchira. Ministerio de la Cultura
-  ENG: Consejo Nacional de la Cultura, Ateneo del Táchira. Ministerio de la Cultura
+  ENG: National Council of Culture, Ateneo del Táchira. Culture Ministry
  horas:
  ico: 
  tag: resume tech art

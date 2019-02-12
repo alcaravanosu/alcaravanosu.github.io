@@ -5,7 +5,7 @@
  fecha: 
   ESP: Mayo, 2013
   ENG: May, 2013
- lugar: &SC San Cristóbal
+ ciudad: &SC San Cristóbal
  institucion: &iufront Instituto Universitario de la Frontera
  desc: 
   ESP: >
@@ -26,7 +26,7 @@
  fecha: 
   ESP: Enero, 2013
   ENG: January, 2013
- lugar: *SC
+ ciudad: *SC
  institucion: *iufront
  desc: 
   ESP: >
