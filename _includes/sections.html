@@ -9,14 +9,18 @@
 			<div class="last-name2">Sosa</div>
 			<div class="rif">Rif: V185657678</div>
 		</div>
-		<div class="cv">Curriculum vitae</div>
-		<ul class="tarjeta">
-			{% for dato in site.data.contacto %}
-				{% if dato.tag != 'private' %}
-				<li class="icon">{% include iconos/{{ dato.ico }} %} {{dato.desc}}</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
+    <div class="cv-titulo">
+		  <div class="cv">Curriculum vitae</div>
+		  <ul class="tarjeta">
+		  	{% for dato in site.data.contacto %}
+		  		{% if dato.tag != 'private' %}
+		  		<li class="icon">{% include iconos/{{ dato.ico }} %}
+            <div class="observacion">{{dato.desc}}</div>
+          </li>
+		  		{% endif %}
+		  	{% endfor %}
+		  </ul>
+    </div>
     <div><i>bio.</i></div>
     <p class="margen-izq">{{site.data.bio.bio[page.lang]}}</p>
 	</div>
