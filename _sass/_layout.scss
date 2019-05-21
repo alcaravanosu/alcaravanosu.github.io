@@ -312,10 +312,10 @@ ul{
 }
 
 .lista{
-	-moz-column-count: 2;
+	column-count: 2;
 
   @include media-query($on-palm) {
-	  -moz-column-count: 1;
+	  column-count: 1;
   }
 
 }
@@ -328,7 +328,8 @@ ul img{
 
 .item{
 	font-size: $base-font-size - 1;
-	display: inline-block;
+	display: table;
+        margin-right: 5px;
 }
 .item-rating{
 	width: 100%;
@@ -452,12 +453,10 @@ hr{
 }
 
 .observacion{
-	display: inline-block;
-	width: $tamaño-desc;
+	display: table-cell;
 
   @include media-query($on-palm) {
 	  width: 100%;
-	  display: inline;
   }
 }
 

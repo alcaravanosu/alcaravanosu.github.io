@@ -14,8 +14,11 @@
 		  <ul class="tarjeta">
 		  	{% for dato in site.data.contacto %}
 		  		{% if dato.tag != 'private' %}
-		  		<li class="icon">{% include iconos/{{ dato.ico }} %}
-            <div class="observacion">{{dato.desc}}</div>
+		  		<li>
+                                <article class="item">
+                                <figure class="icon icono">{% include iconos/{{ dato.ico }} %}
+                                </figure><section class="observacion">{{dato.desc}}</section>
+                                </article>
           </li>
 		  		{% endif %}
 		  	{% endfor %}
@@ -32,11 +35,13 @@
 		<h2>{{ site.data.secciones.educacion[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for edu in site.data.educacion %}
-				<li class="item">
-					<div class="icon tinto icono">{% include iconos/{{edu.ico}} %}
-					</div><div class="titulo">{{ edu.titulo[page.lang] }}</div>
-					<p class="margen-izq">{{edu.fecha[page.lang]}} {{edu.year}}. 
-						{{edu.institucion}}. {{edu.ciudad}}.</p>
+				<li>
+                                  <article class="item">
+					<header><figure class="icon tinto icono">{% include iconos/{{edu.ico}} %}
+					</figure><div class="titulo">{{ edu.titulo[page.lang] }}</div></header>
+					<section><p class="margen-izq">{{edu.fecha[page.lang]}} {{edu.year}}. 
+						{{edu.institucion}}. {{edu.ciudad}}.</p></section>
+                                  </article>
 				</li>
 			{% endfor %}
 		</ul>
@@ -49,19 +54,25 @@
 		<h2>{{ site.data.secciones.experiencia[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for exp in site.data.experiencia %}
-				<li class="item">
+				<li>
+                                  <article class="item">
+                                    <header>
 					{% if exp.ico %}
-						<div class="icon blanco icono">
+						<figure class="icon blanco icono">
 							{% include iconos/{{ exp.ico }} %}
-						</div>
-					{% else %}<div class="icono"><!--Vacio--></div>
+						</figure>
+					{% else %}<figure class="icono"><!--Vacio--></figure>
 					{% endif %}
 					<div class="titulo">{{exp.titulo[page.lang]}}</div>
+                                    </header>
+                                    <section>
 					<p class="margen-izq">
 						{{exp.fecha_in[page.lang]}}{{exp.fecha_out[page.lang]}}.
 						 {{exp.ciudad[page.lang]}}. {{exp.rol[page.lang]}}. 
 						{{exp.empresa[page.lang]}}.
 					</p>
+                                    </section>
+                                  </article>
 				</li>
 			{% endfor %}
 		</ul>
@@ -69,13 +80,19 @@
 		<hr>
 		<ul class="lista tarjeta">
 			{% for reco in site.data.reconocimientos %}
-				<li class="item">
-					<div class="icon blanco icono">{% include iconos/{{reco.ico}} %}
-					</div><div class="titulo">{{reco.titulo[page.lang]}}</div>
+				<li>
+                                  <article class="item">
+                                    <header>
+					<figure class="icon blanco icono">{% include iconos/{{reco.ico}} %}
+					</figure><div class="titulo">{{reco.titulo[page.lang]}}</div>
+                                    </header>
+                                    <section>
 					<p class="margen-izq">
 						{{reco.fecha[page.lang]}}. {{reco.ciudad}}. 
 						{{reco.desc[page.lang]}}. {{reco.institucion}}.
 					</p>
+                                    </section>
+                                  </article>
 				</li>
 			{% endfor %}
 		</ul>
@@ -88,17 +105,23 @@
 		<h2>{{ site.data.secciones.cursos[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for asistente in site.data.cursos %}
-				<li class="item">
+				<li>
+                                  <article class="item">
+                                    <header>
 					{% if asistente.ico %}
-					<div class="icon tinto icono">
-						{% include iconos/{{asistente.ico}} %}</div>
-					{% else %}<div class="icono"><!--Vacio--></div>
+					<figure class="icon tinto icono">
+						{% include iconos/{{asistente.ico}} %}</figure>
+					{% else %}<figure class="icono"><!--Vacio--></figure>
 					{% endif %}
 					<div class="titulo">{{asistente.titulo[page.lang]}}</div>
+                                    </header>
+                                    <section>
 					<p class="margen-izq">
 						{{asistente.fecha[page.lang]}}. {{asistente.lugar}}. 
 						{{asistente.horas}} {{asistente.institucion[page.lang]}}.
 					</p>
+                                    </section>
+                                  </article>
 				</li>
 			{% endfor %}
 		</ul>
@@ -111,9 +134,13 @@
 		<h2>{{ site.data.secciones.lenguajes[page.lang] }}</h2>
 		<ul class="lista tarjeta">
 			{% for her in site.data.herramientas %}				
-				<li class="item">
-					<div class="icon blanco icono">{% include iconos/{{her.ico}} %}
-					</div><div class="titulo">{{her.titulo[page.lang]}}</div>
+				<li>
+                                <article class="item">
+                                  <header>
+					<figure class="icon blanco icono">{% include iconos/{{her.ico}} %}
+					</figure><div class="titulo">{{her.titulo[page.lang]}}</div>
+                                  </header>
+                                  <section>
 					<ul class="tarjeta">
 						{% for item in her.herramienta %}
 							<li class="item-rating">
@@ -122,20 +149,26 @@
 							</li>
 						{% endfor %}
 					</ul>
+                                  </section>
+                                </article>
 				</li>
 			{% endfor %}
 		</ul>
 		<!-- OBSERVACIONES -->
-		<ul class="lista tarjeta">
+                <section class="lista tarjeta">
+		<ul>
 			{% for obs in site.data.observaciones %}
 				{% if obs.tag == "herramientas" %}
-					<li class="item">
-					 <span class="icon blanco icono">{% include iconos/{{obs.ico}} %}
-					 </span><p class="observacion">{{obs.observacion[page.lang]}}</p>
+					<li>
+                                          <article class="item">
+					    <figure class="icon blanco icono">{% include iconos/{{obs.ico}} %}
+					    </figure><p class="observacion">{{obs.observacion[page.lang]}}</p>
+                                          </article>
 					</li>
 				{% endif %}
 			{% endfor %}
 		</ul>
+                </section>
 	</div>
 </section>
 
@@ -146,10 +179,13 @@
 			<h2>{{ site.data.secciones.habilidades[page.lang] }}</h2>
 			<ul class="tarjeta">
 				{% for hab in site.data.habilidades %}
-					<li class="item">
+					<li>
+                                        <article class="item">
 						{% if hab.titulo %}
-							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}
-							</div><div class="titulo">{{hab.titulo[page.lang]}}</div>
+                                                  <header>
+							<figure class="icon tinto icono">{% include iconos/{{ hab.ico }} %}
+							</figure><div class="titulo">{{hab.titulo[page.lang]}}</div>
+                                                  </header>
 							<ul class="tarjeta">
 								{% for item in hab.lista %}
 									<li class="item-rating">
@@ -159,9 +195,10 @@
 								{% endfor %}
 							</ul>
 						{% else %}
-							<div class="icon tinto icono">{% include iconos/{{ hab.ico }} %}
-							</div><p class="observacion">{{hab.habilidad[page.lang]}}</p>
+							<figure class="icon tinto icono">{% include iconos/{{ hab.ico }} %}
+							</figure><p class="observacion">{{hab.habilidad[page.lang]}}</p>
 						{% endif %}
+                                        </article>
 					</li>
 				{% endfor %}
 			</ul>
@@ -170,9 +207,12 @@
 			<h2>{{ site.data.secciones.otras[page.lang] }}</h2>
 			<ul class="tarjeta">
 				{% for otra in site.data.otras %}
-					<li class="item">
-						<div class="icon tinto icono">{% include iconos/{{otra.ico}} %}</div>
+					<li>
+                                        <article class="item">
+                                          <header>
+						<figure class="icon tinto icono">{% include iconos/{{otra.ico}} %}</figure>
 						<div class="titulo">{{otra.titulo[page.lang]}}</div>
+                                          </header>
 						<ul class="tarjeta">
 							{% for cap in otra.lista %}
 								<li class="item-rating">
@@ -181,6 +221,7 @@
 								</li>
 							{% endfor %}
 						</ul>
+                                        </article>
 					</li>
 				{% endfor %}
 			</ul>
