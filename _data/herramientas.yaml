@@ -48,6 +48,20 @@
  tag: public
 -
  titulo: 
+  ESP: SisAdmin
+  ENG: SysAdmin
+ herramienta:
+  -
+   nombre: Docker
+   valor: 7
+  -
+   nombre: Ansible
+   valor: 4
+ ico: Entypo/code.svg
+ tag: public
+
+-
+ titulo: 
   ESP: Sistema Operativo
   ENG: Operating Systems
  herramienta:
