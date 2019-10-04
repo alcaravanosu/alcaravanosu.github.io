@@ -1,5 +1,27 @@
 -
  titulo: 
+  ESP: Depto. Técnico
+  ENG: Technical dept.
+ fecha_in: 
+  ESP: Agosto, 2019
+  ENG: August, 2019
+ fecha_out: 
+  ESP: 
+  ENG: 
+ rol: 
+  ESP: IX Encuentro para cinéfagos 
+  ENG: IX Encuentro para cinéfagos
+ empresa: 
+  ESP: *bordes_esp
+  ENG: *bordes_eng
+ ciudad: 
+  ESP: *SC
+  ENG: *SC
+ contacto: *fania
+ ico: 
+ tag: resume tech art
+-
+ titulo: 
   ESP: Analista de sistemas
   ENG: Systems analyst
  fecha_in:
